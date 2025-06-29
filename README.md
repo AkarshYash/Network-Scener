@@ -1,6 +1,4 @@
 
-## 📘 Final `README.md` – Basic Port Scanner v1.0
-
 ```markdown
 # 🔍 Basic Port Scanner v1.0
 
@@ -136,6 +134,7 @@ Cybersecurity | Security Tool Development | Python | Machine Learning | Web Deve
 ---
 
 ⭐ If you found this useful, give it a star and keep hacking (ethically)!
+https://github.com/AkarshYash/Network-Scener
 
 ```
 
