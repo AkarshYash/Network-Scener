@@ -1,102 +1,111 @@
 
 ```markdown
- 🔍 Basic Port Scanner v1.0
+# 🌐 Network-Scener
 
-A stylish, beginner-friendly Python tool to scan common open ports on a target IP.  
-🎯 Great for getting started with cybersecurity, ethical hacking, and tool development.\
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Last Commit](https://img.shields.io/github/last-commit/AkarshYash/Network-Scener)
 
-![banner](https://img.shields.io/badge/Python-3.x-blue?style=flat-square)
-![status](https://img.shields.io/badge/status-Working-green?style=flat-square)
-![author](https://img.shields.io/badge/Author-Akarsh--Chaturvedi-orange?style=flat-square)
+A suite of network security tools featuring a powerful port scanner with logging capabilities. Perfect for security professionals and network administrators.
 
-✨ Features
-
-- ✅ Scans 8 essential ports: FTP, SSH, Telnet, DNS, HTTP, HTTPS, and more
-- 🎨 Enhanced terminal UI with colors and ASCII banner
-- ⚡ Fast and lightweight
-- 🧠 Beginner-friendly Python code
-- 💥 Color-coded output using `colorama`
-
-📦 Requirements
-
-- Python 3.x installed
-- `colorama` library
-
-
-⚙️ Setup Instructions
-
-1. 📥 Download the Script
-
-Save it as:
-```
-basic\_port\_scanner.py
-
-````
-
-2. 🐍 Install `colorama`
-
-Run this once:
-```bash
-pip install colorama
-````
-
----
-
-🌐 How to Find Your IP
-
-🖥️ On Windows:
-
-1. Press `Win + R`, type `cmd`, hit **Enter**
-2. Type:
-
-```cmd
-ipconfig
+```python
+╔═══════════════════════════════════════╗
+║     🔍 PORT SCANNER WITH LOGGING     ║
+╚═══════════════════════════════════════╝
 ```
 
-3. Copy the **IPv4 Address** (e.g., `192.168.1.5`)
+#✨ Features
 
-Use this as your **target IP**.
+- **Multi-threaded port scanning** for blazing fast results
+- **Banner grabbing** to identify running services
+- **Comprehensive logging** to text files
+- **Color-coded terminal output** for better visibility
+- **Custom port range scanning**
+- **Easy-to-use interactive CLI**
 
----
-
-🚀 How to Run
-
-On Windows PowerShell:
-
-```powershell
-python "C:\Path\To\basic_port_scanner.py"
-```
-
-On Linux/macOS:
+📦 Installation
 
 ```bash
-python3 basic_port_scanner.py
+git clone https://github.com/AkarshYash/Network-Scener.git
+cd Network-Scener
+pip install -r requirements.txt
 ```
+
+🚀 Quick Start
+
+Run the port scanner:
+```bash
+python port_scanner.py
+```
+
+Sample output:
+```bash
+[?] Enter Target IP or Hostname: scanme.nmap.org
+[?] Start Port: 20
+[?] End Port: 80
+
+[+] Port 22 OPEN - Banner: SSH-2.0-OpenSSH_7.9
+[+] Port 80 OPEN - Banner: HTTP/1.1 200 OK
+```
+
+📂 File Structure
+
+```
+Network-Scener/
+├── port_scanner.py       # Main port scanning utility
+├── scan_results.txt      # Sample output file
+├── requirements.txt      # Dependencies
+└── README.md            # This documentation
+```
+
+🛠 Future Roadmap
+
+- [ ] Add vulnerability scanning
+- [ ] Implement GUI version
+- [ ] Add network mapping features
+- [ ] Support for export formats (JSON, CSV)
+- [ ] Ping sweep functionality
+
+🤝 Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+📜 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+ 📧 Contact
+
+Akarsh Chaturvedi - - Chaturvediakarsh51@gmail.com
+
+Project Link: [https://github.com/AkarshYash/Network-Scener](https://github.com/AkarshYash/Network-Scener)
 
 ---
 
-📸 Screenshot Example
-
-```
-╔═══════════════════════════════════╗
-║   🔍 BASIC PORT SCANNER - v1.0   ║
-╚═══════════════════════════════════╝
-Author: Akarsh Chaturvedi | Language: Python
----------------------------------------
-
-Enter Target IP (e.g. 192.168.1.1): 192.168.1.1
-
-[+] Starting scan...
-
-[-] Port 21 is closed
-[-] Port 22 is closed
-[+] Port 80 is OPEN
-[+] Port 443 is OPEN
-
-[✓] Scan completed. Stay secure!
+Made with ❤️ by [Akarsh Chaturvedi](https://github.com/AkarshYash)
 ```
 
----
+### Key Improvements:
+1. **Modern Badges** - Added shields.io badges for better visibility
+2. **ASCII Art** - Kept your cool scanner banner
+3. **Clear Structure** - Organized sections with emoji headings
+4. **Roadmap** - Added future plans to attract contributors
+5. **Professional Tone** - Maintained a clean, technical but approachable style
+6. **Responsive Formatting** - Looks great on both desktop and mobile GitHub
+
+To implement this:
+1. Create a new `README.md` file in your repository
+2. Copy this entire content
+3. Update the contact information and any other personal details
+4. Commit and push to GitHub
+
+Would you like me to make any specific adjustments to better match your project vision?
 
 🛡️ Ports Scanned
 
@@ -111,20 +120,4 @@ Enter Target IP (e.g. 192.168.1.1): 192.168.1.1
 | 110  | POP3    | Email retrieval   |
 | 443  | HTTPS   | Secure web        |
 
----
-⚠️ Legal & Ethical Use
-
-This tool is meant for **learning and testing on authorized systems only**.
-🚫 Do **NOT** scan devices you don’t own or don’t have permission to test.
-
----
-
-👨‍💻 Author
-
-**Akarsh Chaturvedi**
-Cybersecurity | Security Tool Development | Python | Machine Learning | Web Development
-
----
-
-⭐ If you found this useful, give it a star and keep hacking (ethically)!
 
