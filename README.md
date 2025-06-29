@@ -1,17 +1,15 @@
 
 ```markdown
-# 🔍 Basic Port Scanner v1.0
+ 🔍 Basic Port Scanner v1.0
 
 A stylish, beginner-friendly Python tool to scan common open ports on a target IP.  
-🎯 Great for getting started with cybersecurity, ethical hacking, and tool development.
+🎯 Great for getting started with cybersecurity, ethical hacking, and tool development.\
 
 ![banner](https://img.shields.io/badge/Python-3.x-blue?style=flat-square)
 ![status](https://img.shields.io/badge/status-Working-green?style=flat-square)
 ![author](https://img.shields.io/badge/Author-Akarsh--Chaturvedi-orange?style=flat-square)
 
----
-
-## ✨ Features
+✨ Features
 
 - ✅ Scans 8 essential ports: FTP, SSH, Telnet, DNS, HTTP, HTTPS, and more
 - 🎨 Enhanced terminal UI with colors and ASCII banner
@@ -19,27 +17,23 @@ A stylish, beginner-friendly Python tool to scan common open ports on a target I
 - 🧠 Beginner-friendly Python code
 - 💥 Color-coded output using `colorama`
 
----
-
-## 📦 Requirements
+📦 Requirements
 
 - Python 3.x installed
 - `colorama` library
 
----
 
-## ⚙️ Setup Instructions
+⚙️ Setup Instructions
 
-### 1. 📥 Download the Script
+1. 📥 Download the Script
 
 Save it as:
 ```
-
 basic\_port\_scanner.py
 
 ````
 
-### 2. 🐍 Install `colorama`
+2. 🐍 Install `colorama`
 
 Run this once:
 ```bash
@@ -48,9 +42,9 @@ pip install colorama
 
 ---
 
-## 🌐 How to Find Your IP
+🌐 How to Find Your IP
 
-### 🖥️ On Windows:
+🖥️ On Windows:
 
 1. Press `Win + R`, type `cmd`, hit **Enter**
 2. Type:
@@ -65,15 +59,15 @@ Use this as your **target IP**.
 
 ---
 
-## 🚀 How to Run
+🚀 How to Run
 
-### On Windows PowerShell:
+On Windows PowerShell:
 
 ```powershell
 python "C:\Path\To\basic_port_scanner.py"
 ```
 
-### On Linux/macOS:
+On Linux/macOS:
 
 ```bash
 python3 basic_port_scanner.py
@@ -81,7 +75,7 @@ python3 basic_port_scanner.py
 
 ---
 
-## 📸 Screenshot Example
+📸 Screenshot Example
 
 ```
 ╔═══════════════════════════════════╗
@@ -104,7 +98,7 @@ Enter Target IP (e.g. 192.168.1.1): 192.168.1.1
 
 ---
 
-## 🛡️ Ports Scanned
+🛡️ Ports Scanned
 
 | Port | Service | Description       |
 | ---- | ------- | ----------------- |
@@ -118,15 +112,14 @@ Enter Target IP (e.g. 192.168.1.1): 192.168.1.1
 | 443  | HTTPS   | Secure web        |
 
 ---
-
-## ⚠️ Legal & Ethical Use
+⚠️ Legal & Ethical Use
 
 This tool is meant for **learning and testing on authorized systems only**.
 🚫 Do **NOT** scan devices you don’t own or don’t have permission to test.
 
 ---
 
-## 👨‍💻 Author
+👨‍💻 Author
 
 **Akarsh Chaturvedi**
 Cybersecurity | Security Tool Development | Python | Machine Learning | Web Development
@@ -134,7 +127,4 @@ Cybersecurity | Security Tool Development | Python | Machine Learning | Web Deve
 ---
 
 ⭐ If you found this useful, give it a star and keep hacking (ethically)!
-https://github.com/AkarshYash/Network-Scener
-
-```
 
