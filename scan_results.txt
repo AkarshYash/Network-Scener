@@ -1,0 +1,4 @@
+Scan Results for https://www.lpu.in/ (Ports 1-1000)
+
+
+[OK] Scan complete.
