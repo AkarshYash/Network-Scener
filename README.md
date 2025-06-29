@@ -1,6 +1,6 @@
 
 ```markdown
-# 🌐 Network-Scener
+ 🌐 Network-Scener
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -14,7 +14,7 @@ A suite of network security tools featuring a powerful port scanner with logging
 ╚═══════════════════════════════════════╝
 ```
 
-#✨ Features
+✨ Features
 
 - **Multi-threaded port scanning** for blazing fast results
 - **Banner grabbing** to identify running services
@@ -91,13 +91,13 @@ Project Link: [https://github.com/AkarshYash/Network-Scener](https://github.com/
 Made with ❤️ by [Akarsh Chaturvedi](https://github.com/AkarshYash)
 ```
 
-### Key Improvements:
-1. **Modern Badges** - Added shields.io badges for better visibility
-2. **ASCII Art** - Kept your cool scanner banner
-3. **Clear Structure** - Organized sections with emoji headings
-4. **Roadmap** - Added future plans to attract contributors
-5. **Professional Tone** - Maintained a clean, technical but approachable style
-6. **Responsive Formatting** - Looks great on both desktop and mobile GitHub
+Key Improvements:
+1. Modern Badges - Added shields.io badges for better visibility
+2. ASCII Art - Kept your cool scanner banner
+3. Clear Structure - Organized sections with emoji headings
+4. Roadmap - Added future plans to attract contributors
+5. Professional Tone - Maintained a clean, technical but approachable style
+6. Responsive Formatting - Looks great on both desktop and mobile GitHub
 
 To implement this:
 1. Create a new `README.md` file in your repository
