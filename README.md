@@ -1,5 +1,5 @@
 
-```markdown
+
  🌐 Network-Scener
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
@@ -8,7 +8,7 @@
 
 A suite of network security tools featuring a powerful port scanner with logging capabilities. Perfect for security professionals and network administrators.
 
-```python
+```
 ╔═══════════════════════════════════════╗
 ║     🔍 PORT SCANNER WITH LOGGING     ║
 ╚═══════════════════════════════════════╝
